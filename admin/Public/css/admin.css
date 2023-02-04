@@ -1,0 +1,74 @@
+.modal__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal_inner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  animation: fadeIn linear 0, 1s;
+  display: none;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.modal__body {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 1;
+}
+.modal__main {
+  padding: 10px;
+}
+.img-thumbnail {
+  margin-top: 10px;
+}
+.btn-success {
+  margin-top: 10px;
+}
+.btn {
+  width: 100%;
+}
+.filter {
+  display: flex;
+  width: 100%;
+}
+.filter .filter-ft {
+  width: 100%;
+  display: flex;
+}
+.Tenchuong {
+  display: flex;
+}
+.right_col {
+  height: 88vh !important;
+  /* overflow: auto!important; */
+  padding: 10px !important;
+}
+body {
+  overflow: auto !important;
+ 
+}
+.custom-scroll {
+  overflow-y: scroll;
+}
+.custom-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background: rgb(42, 63, 84);
+}

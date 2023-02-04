@@ -1,0 +1,55 @@
+div.footer {
+  color: var(--light);
+  font-size: 15px;
+  margin-top: 30px;
+  background-color: var(--dark);
+}
+div.footer-item {
+  width: 25%;
+  float: left;
+}
+.clear-fix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+div.footer-item.logo img {
+  width: 200px;
+  height: auto;
+  margin: 40px;
+}
+#icon {
+  margin-top: 30px;
+  text-align: center;
+}
+.footer-item .i-link {
+  margin-bottom: 25px;
+}
+.footer-item a:nth-of-type(1):hover i {
+  color: #00acee;
+}
+.footer-item a:nth-of-type(2):hover i {
+  color: #3b5998;
+}
+.footer-item a:nth-of-type(3):hover i {
+  color: #ff0000;
+}
+.footer-item a:nth-of-type(4):hover i {
+  background: -webkit-linear-gradient(#515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+div.footer .contact {
+  padding-left: 120px;
+}
+div.footer .contact h3 {
+    font-size: 25px;
+    color: var(--link);
+}
+div.footer .contact a {
+    color: var(--link);
+}
+div.footer .slogan {
+  margin-top: 20px;
+  line-height: 1.5;
+}
